@@ -21,7 +21,7 @@ def home():
                 assignment=request.form['assignment'],
                 grade=request.form['grade'],
             )
-            #print("(" + request.form['grade'] + ")")
+            print("(" + request.form['grade'] + ")")
             g.save()
 
     body = """
